@@ -13,10 +13,10 @@ global.APIKeys = {
 
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //semt menu variants
@@ -33,7 +33,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.vcardowner = ['6285161710084'] //ur owner number
 global.ownername = "AlVLP" //ur owner name
-global.ytname = "YT: MiawAug" //ur yt chanel name
+global.ytname = "YT: Nekoyama Sena" //ur yt chanel name
 global.socialm = "GitHub: MoYanHun" //ur github or insta name
 global.location = "Indonesia, Japanese" //ur location
 
@@ -44,9 +44,9 @@ global.botname = 'AlVBOT【3.3】' //ur bot name
 global.linkz = "https://www.youtube.com/watch?v=E2G2ZMVH72c" //your theme url which will be displayed on whatsapp
 global.websitex = "https://github.com/MoYanHun" //ur website to be displayed
 global.botscript = 'https://github.com/MoYanHun' //script link
-global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
-global.packname = "AlVLP\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
+global.reactmoji = "🪪" //ur menu react emoji
+global.themeemoji = "📑" //ur theme emoji
+global.packname = "AlVLP\n\n\n\n\n\n\n\n\n\n\n" //ur sticker watermark packname
 global.author = "6285161710084" //ur sticker watermark author
 
 //Bot theme media
