@@ -1,26 +1,3 @@
-//════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
-//Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Xeons youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you🦄
-//════════════════════════════//
-
 const fs = require('fs')
 const chalk = require('chalk')
 
@@ -54,23 +31,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['916909137213'] //ur owner number
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.vcardowner = ['6285161710084'] //ur owner number
+global.ownername = "AlVLP" //ur owner name
+global.ytname = "YT: Hu Tao" //ur yt chanel name
+global.socialm = "GitHub: AlVLP2022" //ur github or insta name
+global.location = "Japanese" //ur location
 
 //bot bomdy 
-global.owner = ['916909137213']
-global.ownertag = '916909137213' //ur tag number
-global.botname = 'Cheems Bot MD V4' //ur bot name
-global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
-global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
-global.author = "🦄Dream Guy Xeon" //ur sticker watermark author
+global.owner = ['6285161710084']
+global.ownertag = '6285161710084' //ur tag number
+global.botname = 'AlVBOT【3.6】' //ur bot name
+global.linkz = "https://www.youtube.com/watch?v=E2G2ZMVH72c" //your theme url which will be displayed on whatsapp
+global.websitex = "https://github.com/MoYanHun" //ur website to be displayed
+global.botscript = 'https://github.com/MoYanHun' //script link
+global.reactmoji = "📑" //ur menu react emoji
+global.themeemoji = "📑" //ur theme emoji
+global.packname = "AlVLP\n\n\n\n\n\n\n\n\n\n\n" //ur sticker watermark packname
+global.author = "6285161710084" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -79,7 +56,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['916909137213'] //ur premium numbers
+global.premium = ['6285727790018'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -100,25 +77,25 @@ global.autorep = []
 global.ntilink = []
 
 //omther
-global.sessionName = 'session'
+global.sessionName = '16102022'
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    success: 'Done Oke Desu ✓',
+    admin: 'Admin Only!',
     botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
+    owner: 'Mastah Only!',
+    group: 'Group Only!!',
+    private: 'Private Chat!',
+    bot: 'Iam Only',
+    wait: 'Checking...',
     linkm: 'Where is the link?',
-    error: 'Error!!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    error: 'Error: Mastah......😭',
+    endLimit: 'Daily Limit!',
+    ban: 'Banned!!, Chat Mastah to unban',
+    nsfw: 'NSFW [NOT SAFE FOR WORKING!]',
+    banChat: 'Banned in Group!!, Chat Mastah to unban'
 }
     global.limitawal = {
     premium: "Infinity",
