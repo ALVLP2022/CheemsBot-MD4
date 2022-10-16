@@ -1,7 +1,7 @@
 {
-  "name": "CheemsBot-MD",
+  "name": "AlVBOT-MD",
   "version": "4.0.0",
-  "description": "Automated whatsapp md bot created using nodejs",
+  "description": "Node.JS 17",
   "main": "xeon.js",
   "type": "commonjs",
   "scripts": {

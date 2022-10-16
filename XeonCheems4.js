@@ -1,26 +1,3 @@
-//════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
-//Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Xeons youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you🦄
-//════════════════════════════//
-
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -8837,142 +8814,156 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Initial Features Of Bot 🦄",
+                        "title": "Sekolah Menu",
+                        "rows": [
+                            {
+                                "title": "Jadwal【Early Acces】",
+                                "description": "Menampilkan Jadwal Kelas 7-9 ABCD",
+                                "rowId": `jadwalsekolah`
+                            },
+                            {
+                                "title": "Pramuka【Early Acces】",
+                                "description": "【Early Acces】",
+                                "rowId": `pramuka`
+                            }
+                        ]
+                    },{
+								"title": "Initial Features Of Bot",
 								"rows": [
 									{
-										"title": "Other ☕",
+										"title": "Other",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "Bot Features ",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
+										"title": "All Menu ",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
+										"title": "Owner Menu ",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu ✨",
+										"title": "Group Menu ",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🌈",
+										"title": "Maker Menu ",
 										"description": "Displays The List Of Logo Making Features",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Sound Menu 🎵",
+										"title": "Sound Menu ",
 										"description": "Displays The List Of Sound Features",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu ↘️",
+										"title": "Download Menu",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Sticker Menu 🃏",
+										"title": "Sticker Menu",
 										"description": "Displays The List Of Sticker Features",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Search Menu 🔎",
+										"title": "Search Menu",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Tool Menu ⚙️",
+										"title": "Tool Menu",
 										"description": "Displays The List Of Tool Features",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
-										"title": "Random Image Menu 🌆",
+										"title": "Random Image Menu",
 										"description": "Displays The List Of Random Image Features",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
-										"title": "Image Effect Menu 🖼️",
+										"title": "Image Effect Menu",
 										"description": "Displays The List Of Image Effect Features",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
-											"title": "Anime Menu 😘",
+											"title": "Anime Menu",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 😀",
+											"title": "Emote Menu",
 										"description": "Displays The List Of Emote Features",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
-										"title": "Anime Sticker Menu ☺️",
+										"title": "Anime Sticker Menu",
 										"description": "Displays The List Of Anime Sticker Features",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🤓",
+										"title": "Nsfw Menu 【Removed!】",
 										"description": "Displays The List Of Nsfe Features",
-										"rowId": `${prefix}nsfwmenu`
+										"rowId": `notfound`
 									     },
 										{
-											"title": "Fun Menu 🕺",
+											"title": "Fun Menu",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "Game Menu 🎮",
+										"title": "Game Menu",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Convert Menu ⚒️",
+											"title": "Convert Menu",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu ♻️",
+											"title": "Database Menu",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Indo Menu  🦜",
+										"title": "Indo Menu ",
 										"description": "Displays The List Of Indo Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Horoscope Menu 🕊️",
+											"title": "Horoscope Menu",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🌝",
+								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🙎🏻‍♂️",
+										"title": "Anonymous Chat Menu ",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "Credit ©️",
+								"title": "About",
 								"rows": [
 									{
-										"title": "Thanks To ❤️",
-										"description": "Displays The List Of Credit Of The Bot !!",
-										"rowId": `${prefix}tqtt`
+										"title": "AlVBOT - MD 3.3",
+										"description": "Node.js 17",
+										"rowId": `ping`
 									}
 								]
 							}
@@ -10582,15 +10573,339 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OTHER 」
 ╠ ${prefix}request
 ╠ ${prefix}report [bug]
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+
+////////////////////////////Sekolah Menu///////////////////////////////////
+
 break
-case 'tqtt': 
+case 'jadwalsekolah': {
+    if (isBan) return reply(mess.ban)
+if (isBanChat) return reply(mess.banChat)
+let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+listMessage :{
+ title: `Hai Kak ${pushname}`,
+ description: `Ini Adalah Menu Jadwal Pada 10/10/2022\n\n`,
+ buttonText: "Lihat Jadwal",
+ footerText: `${global.botname}`,
+ listType: "SINGLE_SELECT",
+ sections: [{
+  "title": "Jadwal Kelas 9",
+  "rows": [
+     {
+        "title": "Jadwal Kelas 9A",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     },
+     {
+        "title": "Jadwal Kelas 9B",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     },
+     {
+        "title": "Jadwal Kelas 9C",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     },
+     {
+        "title": "Jadwal Kelas 9D",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     }
+     
+
+  
+  ]
+},{
+             "title": "Jadwal Kelas 8",
+             "rows": [{
+        "title": "Jadwal Kelas 8A",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     },
+        {
+                     "title": "Jadwal Kelas 8B",
+                     "description": "Ini adalah jadwal sekolah pada 10/10/2022",
+                     "rowId": `jadwal8b`
+                 },
+        {
+                     "title": "Jadwal Kelas 8C",
+                     "description": "Still Development",
+                     "rowId": `commingsoon`
+                 },
+        {
+           "title": "Jadwal Kelas 8D",
+           "description": "Stil Development",
+           "rowId": `commingsoon`
+        }
+             ]
+         },
+  {
+             "title": "Jadwal Kelas 7",
+             "rows": [{
+        "title": "Jadwal Kelas 7A",
+        "description": "Stil Development",
+        "rowId": `commingsoon`
+     },
+        {
+                     "title": "Jadwal Kelas 7B",
+                     "description": "Still Development",
+                     "rowId": `jadwal8b`
+                 },
+        {
+                     "title": "Jadwal Kelas 7C",
+                     "description": "Still Development",
+                     "rowId": `commingsoon`
+                 },
+        {
+           "title": "Jadwal Kelas 7D",
+           "description": "Stil Development",
+           "rowId": `commingsoon`
+        }
+             ]
+         },
+         {
+             "title": "About",
+             "rows": [
+                 {
+                     "title": "AlVBOT 3.2",
+                     "description": "Node.js 17",
+                     "rowId": `ping`
+                 }
+             ]
+         }
+     ],
+listType: 1
+}
+}), {})
+XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+}
+
+
+//////////////////////////////////////////////Jadwal 8B//////////////////////////////
+
+
+break 
+case 'jadwal8b':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
-My family
-And all friends who helped assemble this sexy script !!!`)
+var unicorn = await getBuffer(picak+'8b')
+await XeonBotInc.send5ButImg(from, `｢  𝕁𝕒𝕕𝕨𝕒𝕝 𝕊𝕖𝕜𝕠𝕝𝕒𝕙  ｣
+
+╔═════════╗
+╠ Senin═════╝
+║ »IPA           
+║ »IPS
+║ »B.Indo     
+║ »PAI          
+╚══════════
+
+╔══════════╗
+╠ Selasa ═════╝
+║»PKN
+║»PJOK
+║»B.Inggris
+╠ LES
+║»Matematika
+║»B.Indonesia
+╚══════════
+
+╔═════════╗
+╠ Rabu ═════╝
+║»Seni Budaya
+║»IPA
+║»B.Indo
+║»MTK
+╠ LES
+║»IPA
+║»B.Inggris
+╚══════════
+
+╔══════════╗
+╠ Kamis  ═════╝
+║»PAI
+║»TIK
+║»B.Jawa
+║»Seni Budaya
+║»MTK
+╚══════════
+
+╔═══════════╗
+╠ Jum'at ══════╝
+║»IPA
+║»Prakarya
+╚══════════
+
+╔══════════╗
+╠ Sabtu   ═════╝
+║»IPS
+║»BK
+║»B.Indo
+║»B.Inggris
+╚══════════` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "AlVBOT","url": `${websitex}`}},{"urlButton": {"displayText": "Version","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Bot Monitor","id": 'ping'}},{"quickReplyButton": {"displayText": "Mastah","id": 'owner'}}] )
+
+
+
+///////////////////////////////////Jadwal Sekolah/////////////////////////////////////
+
+break
+case 'regugajah': 
+	   if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+reply(`Regu Gajah:
+-Alvinno Lintang P.
+-Faiz Fino Alfadilah
+-Muhammad Satria S.
+-Ridho H. Sandova
+-Muhammad Ilyas A.
+-Hansa Pandu P.B.
+-Almaaz Rizky D.S.
+-Ramadhan Surya H.`)
+
+break
+case 'hyme': 
+	   if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+reply(`Kami Pramuka Indonesia 
+Manusia Pancasila 
+Satyaku kudharmakan
+Dharmaku kubaktikan 
+Agar jaya, Indonesia
+Indonesia tanah air ku 
+Kami jadi pandumu
+
+https://www.youtube.com/watch?v=MsBxcJJBjTE`)
+
+break
+case 'gerakanpramuka': 
+	   if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+reply(`Mars Gerakan Pramuka 
+
+Gerakan Pramuka Praja Muda Karana 
+Sebagai wahana kaum muda suka berkarya 
+Kader pembangunan sebagai perekat bangsa 
+Disiplin berani dan setia berakhlak mulia 
+Bersatu padu menyongsong masa depan yang gemilang 
+Satu Pramuka untuk satu Indonesia 
+Melangkah maju menuju masyarakat yang sentosa 
+Jayalah Pramuka Jayalah Indonesia
+
+
+https://www.youtube.com/watch?v=6MjUT1lHaIY`)
+
+break
+case 'disiplinpramuka': 
+	   if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+reply(`Hari   : Jumat
+Pukul  : 15.00-17.00
+Tempat : SMPN 3 Berbah
+Jangan Lupa!:
+-Hasduk
+-Barret
+-Buku SAKU/SKU`)
+
+
+
+
+break
+case 'pramuka': {
+    if (isBan) return reply(mess.ban)
+if (isBanChat) return reply(mess.banChat)
+let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+listMessage :{
+ title: `Hai Kak ${pushname}`,
+ description: `Ini Adalah Menu Pramuka\n\n`,
+ buttonText: "Pramuka",
+ footerText: `${global.botname}`,
+ listType: "SINGLE_SELECT",
+ sections: [
+    
+    {
+        "title": "Kamu Harus Tau",
+        "rows": [
+           {
+              "title": "Keterangan Pramuka",
+              "description": "Click",
+              "rowId": `disiplinpramuka`
+           }]
+      },
+      {
+  "title": "Regu",
+  "rows": [
+     {
+        "title": "Regu Gajah",
+        "description": "VIII",
+        "rowId": `regugajah`
+     },
+     {
+        "title": "Comming Soon",
+        "description": "This Command Stil Development",
+        "rowId": `commingsoon`
+     }]
+},{
+             "title": "Pramuka Music",
+             "rows": [{
+        "title": "Hyme",
+        "description": "Ciptaan: H.Mutahar",
+        "rowId": `hyme`
+     },
+        {
+                     "title": "Gerakan Pramuka",
+                     "description": "Ciptaan: Munatsir Amin",
+                     "rowId": `gerakanpramuka`
+                 }
+             ]
+         },
+         {
+             "title": "About",
+             "rows": [
+                 {
+                     "title": "AlVBOT 3.2",
+                     "description": "Node.js 17",
+                     "rowId": `ping`
+                 }
+             ]
+         }
+     ],
+listType: 1
+}
+}), {})
+XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 break
             default:
                 if (budy.startsWith('=>')) {
